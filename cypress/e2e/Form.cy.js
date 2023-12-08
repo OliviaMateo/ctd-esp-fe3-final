@@ -16,9 +16,9 @@ describe("open form successfully", () => {
         ":nth-child(4) > .MuiPaper-root > .MuiCardActions-root > .MuiButton-contained"
       ).click();
       //personal form
-      cy.get('input[name="firstName"]').type("jesica");
-      cy.get('input[name="lastName"]').type("Muñoz");
-      cy.get('input[name="email"]').type("jesy@gmail.com");
+      cy.get('input[name="firstName"]').type("Olivia");
+      cy.get('input[name="lastName"]').type("Mateo");
+      cy.get('input[name="email"]').type("oliimateo0@gmail.com");
       cy.wait(2000);
       cy.get("button").contains("Siguiente").click();
   
@@ -33,7 +33,7 @@ describe("open form successfully", () => {
   
       //payment form
       cy.get('input[name="number"]').type("4242424242424242");
-      cy.get('input[name="name"]').type("jesica M");
+      cy.get('input[name="name"]').type("Oli M");
       cy.get('input[name="expiry"]').type("12/24");
       cy.get('input[name="cvc"]').type("123");
       cy.wait(2000);
@@ -47,9 +47,9 @@ describe("open form successfully", () => {
         ":nth-child(4) > .MuiPaper-root > .MuiCardActions-root > .MuiButton-contained"
       ).click();
       //personal form
-      cy.get('input[name="firstName"]').type("jesica");
-      cy.get('input[name="lastName"]').type("Muñoz");
-      cy.get('input[name="email"]').type("jesy@gmail.com");
+      cy.get('input[name="firstName"]').type("Olivia");
+      cy.get('input[name="lastName"]').type("Mateo");
+      cy.get('input[name="email"]').type("oliimateo0@gmail.com");
       cy.wait(2000);
       cy.get("button").contains("Siguiente").click();
   
@@ -64,7 +64,7 @@ describe("open form successfully", () => {
   
       //payment form
       cy.get('input[name="number"]').type("4141414141414141");
-      cy.get('input[name="name"]').type("jesica M");
+      cy.get('input[name="name"]').type("Olivia M");
       cy.get('input[name="expiry"]').type("12/24");
       cy.get('input[name="cvc"]').type("123");
       cy.wait(2000);
