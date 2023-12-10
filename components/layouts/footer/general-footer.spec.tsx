@@ -10,7 +10,7 @@ describe("GeneralFooter", () => {
     });
     it("should render the logo", () => {
       render(<GeneralFooter />);
-      const logo = screen.getByAltText("Logo jesy");
+      const logo = screen.getByAltText("Logo");
       expect(logo).toBeInTheDocument();
     });
   });

@@ -20,8 +20,6 @@ export const schema = yup.object({
   address: yup
     .string()
     .required("La dirección es requerida")
-    .matches(
-      /^(?=.*[A-Za-z])(?=.*\d)/)
     .min(5, "Mínimo 5 caracteres")
     .max(30, "Máximo 30 caracteres"),
   department: yup.string().notRequired(),
